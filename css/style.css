@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overlay {}
+
+.wraper {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.hero {
+    background: url(../img/Travel-Time.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.hero__container {}
+
+.nav {
+    width: 1170px;
+    height: 39px;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav__item {
+
+    font-weight: 500px;
+    font-size: 24px;
+    color: white;
+}
+
+.content {}
+
+.hero__content {}
+
+.title {
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+
+    font-weight: 275;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    display: flex;
+}
+
+.hero__btn {
+    border: 1px solid #00b43d;
+    border-radius: 8px;
+    padding: 16px 28px;
+    width: 191px;
+    height: 60px;
+    background-color: #00b43d;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    color: white;
+}
