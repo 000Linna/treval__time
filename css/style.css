@@ -31,7 +31,9 @@ a {
     text-decoration: none;
 }
 
-.overlay {}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.178);
+}
 
 .wraper {
     min-height: 100%;
@@ -47,6 +49,7 @@ a {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 
 .hero__container {}
@@ -57,17 +60,21 @@ a {
 
 }
 
+.nav__link {
+    color: white;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+
 }
 
 .nav__item {
-
     font-weight: 500px;
     font-size: 24px;
-    color: white;
+
 }
 
 .content {}
@@ -75,6 +82,7 @@ a {
 .hero__content {}
 
 .title {
+    padding-top: 154px;
     font-weight: 700;
     font-size: 96px;
     color: white;
@@ -94,9 +102,10 @@ a {
 }
 
 .hero__btn {
-    border: 1px solid #00b43d;
+    border: 3px solid #00b43d;
     border-radius: 8px;
-    padding: 16px 28px;
+    border-color: white;
+    padding: 19px 70px;
     width: 191px;
     height: 60px;
     background-color: #00b43d;
@@ -104,4 +113,69 @@ a {
     font-size: 24px;
     line-height: 117%;
     color: white;
+
+    position: absolute;
+    top: 513px;
+    left: 498px;
+
+}
+
+.place {
+
+    background: url(../img/mount.png) no-repeat;
+    background-size: cover;
+}
+
+.place__title {
+
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.card {
+
+    display: flex;
+
+}
+
+.card__item {
+    padding-right: 85px;
+    width: 320px;
+    height: 586px;
+
+
+}
+
+.img__card {
+    width: 272px;
+    height: 252px;
+    display: flex;
+}
+
+.card__title {
+
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+
+.card__subtitle {
+
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.card__btn {
+
+    background-color: rgba(78, 78, 78, 0.45);
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 233%;
+    color: white;
+    border-radius: 8px;
+    width: 96px;
+    height: 39px;
 }
